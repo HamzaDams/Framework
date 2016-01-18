@@ -1,0 +1,49 @@
+author = "Hayden";
+onLoadName = "Roleplay Framework";
+onLoadMission = "The next best thing in Arma Roleplay";
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 5;
+disabledAI = true;
+enableDebugConsole = 1;
+respawnDialog = 0;
+
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 75;
+};
+
+wreckLimit = 3;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 320;
+corpseLimit = 150;
+corpseRemovalMinTime = 999;
+corpseRemovalMaxTime = 9999;
+
+#include "Dialogs\common.hpp"
+#include "Dialogs\marcos.hpp"
+
+#include "Dialogs\Dialog_UI.hpp"
+
+#include "Dialogs\Dialog_ATM.hpp"
+#include "Dialogs\Dialog_PlayerMenu.hpp"
+#include "Dialogs\Dialog_ShopInfo.hpp"
+#include "Dialogs\Dialog_Shop.hpp"
+#include "Dialogs\Dialog_MessageSystem.hpp"
+#include "Dialogs\Dialog_VehicleInteraction.hpp"
+#include "Dialogs\Dialog_Trunk.hpp"
+#include "Dialogs\Dialog_TicketMenu.hpp"
+#include "Dialogs\Dialog_QuestionMenu.hpp"
+#include "Dialogs\Dialog_InteractionMenu.hpp"
+#include "Dialogs\Dialog_Phone.hpp"
+
+class RscTitles
+{
+};
+
+class CfgSounds
+{
+ 
+};

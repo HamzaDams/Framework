@@ -1,0 +1,28 @@
+Config_Items = [
+	["money", "Money", 100, "", "Land_Money_F", true, true, true, ''],
+	["markedCash", "Illegal Cash", 100, "", "Land_Money_F", false, true, true, ''],
+	["water", "Bottle of Water", 0, "", "Land_Money_F", false, false, false, 'Bottles of water can be used to restore your thirst value.'],
+	["pizza", "Pizza", 0, "", "", false, false, false, 'Pizza can be used to restore your hunger value.'],
+	["handcuffs", "Handcuffs", 0, "", "", true, true, true, 'Handcuffs are made to restrain other players.'],
+	["fishingrod", "Fishing Rod", 0, "Framework_Jobs_FishingStart", "", true, true, true, ''],
+	["fishingnet", "Fishing Net", 0, "Framework_Jobs_FishingStart", "", true, true, true, ''],
+	["fishingharpoon", "Fishing Harpoon", 0, "Framework_Jobs_FishingStart", "", true, true, true, ''],
+	["miningpickaxe", "Pickaxe", 0, "", "", true, true, true, ''],
+	["sMedKit", "Small Medical Kit", 0, "Framework_Items_MedicalKit", "", true, true, true, ''],
+	["MedKit", "Medical Kit", 0, "Framework_Items_MedicalKit", "", true, true, true, ''],
+	["lMedKit", "Large Medical Kit", 0, "Framework_Items_MedicalKit", "", true, true, true, ''],
+	["bluegill", "Bluegill", 0, "", "", false, true, true, ''],
+	["catfish", "Catfish", 0, "", "", false, true, true, ''],
+	["perch", "Perch", 0, "", "", false, true, true, ''],
+	["trout", "Trout", 0, "", "", false, true, true, ''],
+	["rockbass", "Rockbass", 0, "", "", false, true, true, ''],
+	["shrimp", "Shrimp", 0, "", "", false, true, true, ''],
+	["sardine", "Sardine", 0, "", "", false, true, true, ''],
+	["monkfish", "Monkfish", 0, "", "", false, true, true, ''],
+	["salmon", "Salmon", 0, "", "", false, true, true, ''],
+	["shark", "Shark", 0, "", "", false, true, true, ''],
+	["tuna", "Tuna", 0, "", "", false, true, true, ''],
+	["whale", "Whale", 0, "", "", false, true, true, ''],
+	["swordfish", "Swordfish", 0, "", "", false, true, true, '']
+];
+publicVariable "Config_Items";
